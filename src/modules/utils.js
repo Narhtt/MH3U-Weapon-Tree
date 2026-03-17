@@ -23,7 +23,9 @@ export function getAffinityValue(affinity) {
 }
 
 export function calculateEFR(weapon, categoryId, isSharpnessPlus1 = false) {
-  const classData = WEAPON_CLASSES[categoryId];
+  const id = categoryId ? categoryId.toUpperCase() : ""; 
+  const classData = WEAPON_CLASSES[id];
+  
   if (!classData) return 0;
 
   const multiplier = classData.multiplier;
