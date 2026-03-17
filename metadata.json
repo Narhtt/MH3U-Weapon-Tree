@@ -1,0 +1,5 @@
+{
+  "name": "MH3U Weapon Tree",
+  "description": "A high-end, interactive weapon evolution tree for Monster Hunter 3 Ultimate, built with Vanilla JS and modern CSS.",
+  "requestFramePermissions": []
+}

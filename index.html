@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MH3U Weapon Tree | Premium Evolution</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body class="theme-dark">
+    <div id="app">
+      <header class="app-header">
+        <div class="header-content container">
+          <div class="brand">
+            <h1 class="cinzel">MH3U <span class="accent">Weapon Tree</span></h1>
+          </div>
+          
+          <nav class="app-nav">
+            <button id="home-btn" class="btn btn-secondary">
+              Accueil
+            </button>
+          </nav>
+        </div>
+      </header>
+
+      <main class="app-main">
+        <div id="tree-viewport" class="viewport">
+          <div id="tree-canvas" class="canvas">
+            <!-- SVG Lines Layer -->
+            <svg id="tree-connections" class="connections-layer"></svg>
+            <!-- DOM Nodes Layer -->
+            <div id="tree-nodes" class="nodes-layer"></div>
+          </div>
+        </div>
+        
+        <!-- Empty State / Home Menu -->
+        <div id="home-overlay" class="overlay">
+          <div class="container">
+            <h2 class="cinzel section-title">Sélecteur d'armes</h2>
+            <div id="weapon-type-grid" class="weapon-type-grid">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Premium Modal -->
+      <dialog id="weapon-modal" class="premium-modal">
+        <div class="modal-wrapper">
+          <button id="close-modal" class="modal-close" aria-label="Fermer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+          <div id="modal-content" class="modal-body">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </dialog>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
