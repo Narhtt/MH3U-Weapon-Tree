@@ -55,19 +55,8 @@ html, body {
   font-family: var(--f-sans);
   line-height: 1.5;
   overflow: auto; 
-  touch-action: auto; /* Plus permissif que manipulation */
+  touch-action: auto; /* Indispensable pour le zoom naturel */
   min-height: 100%;
-}
-
-/* Sur mobile, on lâche la bride du 100vh si on veut zoomer la page entière */
-@media (max-width: 768px) {
-  #app {
-    height: auto; 
-    min-height: 100vh;
-  }
-  .app-main {
-    overflow: visible; /* Permet au contenu de déborder dans le document global */
-  }
 }
 
 .container {
@@ -84,7 +73,7 @@ html, body {
 #app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100vh; /* Verrou par défaut pour PC */
 }
 
 /* Header Design */
@@ -894,5 +883,26 @@ html, body {
   .btn-home .btn-icon {
     width: 16px;
     height: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  html, body {
+    overflow: auto !important;
+    touch-action: auto !important; 
+  }
+
+  #app {
+    height: auto !important; /* Libère le verrou des 100vh sur mobile */
+    min-height: 100vh;
+    display: block; 
+  }
+
+  .app-main {
+    overflow: visible !important; /* Permet au navigateur de voir le contenu géant */
+  }
+  
+  .viewport {
+    overflow: visible !important;
   }
 }
