@@ -49,12 +49,12 @@
   padding: 0;
 }
 
-body {
+html, body {
   background-color: var(--c-bg);
   color: var(--c-text);
   font-family: var(--f-sans);
   line-height: 1.5;
-  overflow: auto; /* Allow natural browser scrolling for better zoom support */
+  overflow: auto !important; /* Allow natural browser scrolling for better zoom support */
   -webkit-font-smoothing: antialiased;
   touch-action: manipulation; /* Optimize for touch interactions */
 }
