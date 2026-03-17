@@ -885,24 +885,3 @@ html, body {
     height: 16px;
   }
 }
-
-@media (max-width: 768px) {
-  html, body {
-    overflow: auto !important;
-    touch-action: auto !important; 
-  }
-
-  #app {
-    height: auto !important; /* Libère le verrou des 100vh sur mobile */
-    min-height: 100vh;
-    display: block; 
-  }
-
-  .app-main {
-    overflow: visible !important; /* Permet au navigateur de voir le contenu géant */
-  }
-  
-  .viewport {
-    overflow: visible !important;
-  }
-}
