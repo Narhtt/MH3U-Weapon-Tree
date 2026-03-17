@@ -14,6 +14,7 @@ class App {
     
     this.elements = {
       treeViewport: document.getElementById('tree-viewport'),
+      treeCanvas: document.getElementById('tree-canvas'),
       treeNodes: document.getElementById('tree-nodes'),
       treeConnections: document.getElementById('tree-connections'),
       homeOverlay: document.getElementById('home-overlay'),
@@ -24,7 +25,22 @@ class App {
       homeBtn: document.getElementById('home-btn')
     };
 
+    // Update Home Button Icon
+    const homeIcon = this.elements.homeBtn.querySelector('.btn-icon');
+    if (homeIcon) homeIcon.innerHTML = ICONS.home;
+
     this.init();
+    this.setupResizeObserver();
+  }
+
+  setupResizeObserver() {
+    // Redraw connections whenever the tree nodes container changes size
+    const observer = new ResizeObserver(() => {
+      if (this.currentCategory) {
+        this.drawConnections();
+      }
+    });
+    observer.observe(this.elements.treeNodes);
   }
 
   toggleCollection(weaponId) {
@@ -46,6 +62,15 @@ class App {
   }
 
   async init() {
+    // Register Service Worker for PWA
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('Service Worker Registered', reg.scope))
+          .catch(err => console.log('Service Worker Registration Failed', err));
+      });
+    }
+
     try {
       const response = await fetch("/data/mh3u_weapons_data_final.json");
       this.weaponsData = await response.json();
@@ -584,10 +609,14 @@ class App {
   drawConnections() {
     requestAnimationFrame(() => {
       const svg = this.elements.treeConnections;
+      const canvas = this.elements.treeCanvas;
       
-      // Adjust SVG size to match content
-      svg.setAttribute('width', this.elements.treeNodes.scrollWidth);
-      svg.setAttribute('height', this.elements.treeNodes.scrollHeight);
+      // Force SVG to match the full scrollable area of the canvas
+      const width = Math.max(canvas.scrollWidth, canvas.offsetWidth);
+      const height = Math.max(canvas.scrollHeight, canvas.offsetHeight);
+      
+      svg.setAttribute('width', width);
+      svg.setAttribute('height', height);
       
       svg.innerHTML = ''; // Clear existing connections
       const nodes = this.elements.treeNodes.querySelectorAll('.weapon-card');
@@ -612,21 +641,18 @@ class App {
 
   createBezierLine(startNode, endNode) {
     const svg = this.elements.treeConnections;
-    const canvas = document.getElementById('tree-canvas');
-    const canvasRect = canvas.getBoundingClientRect();
-    const startRect = startNode.getBoundingClientRect();
-    const endRect = endNode.getBoundingClientRect();
+    const treeNodes = this.elements.treeNodes;
 
     const startId = startNode.dataset.id;
     const endId = endNode.dataset.id;
 
-    // Start point: middle right of parent
-    const x1 = startRect.right - canvasRect.left;
-    const y1 = startRect.top + startRect.height / 2 - canvasRect.top;
+    // Use offsetLeft/Top relative to the canvas
+    // treeNodes.offsetLeft/Top accounts for the padding of the canvas
+    const x1 = startNode.offsetLeft + treeNodes.offsetLeft + startNode.offsetWidth;
+    const y1 = startNode.offsetTop + treeNodes.offsetTop + startNode.offsetHeight / 2;
     
-    // End point: middle left of child
-    const x2 = endRect.left - canvasRect.left;
-    const y2 = endRect.top + endRect.height / 2 - canvasRect.top;
+    const x2 = endNode.offsetLeft + treeNodes.offsetLeft;
+    const y2 = endNode.offsetTop + treeNodes.offsetTop + endNode.offsetHeight / 2;
 
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
     path.setAttribute("class", "connection-line");

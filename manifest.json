@@ -1,0 +1,17 @@
+{
+  "name": "Moga Forge",
+  "short_name": "Moga Forge",
+  "description": "MH3U Weapon Tree & Smithy Reference",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#f27d26",
+  "icons": [
+    {
+      "src": "/icons/Weapons/Sword_&_Shield/Sword_&_Shield_Rank_01.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
