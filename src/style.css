@@ -54,9 +54,20 @@ html, body {
   color: var(--c-text);
   font-family: var(--f-sans);
   line-height: 1.5;
-  overflow: auto !important; /* Allow natural browser scrolling for better zoom support */
-  -webkit-font-smoothing: antialiased;
-  touch-action: manipulation; /* Optimize for touch interactions */
+  overflow: auto; 
+  touch-action: auto; /* Plus permissif que manipulation */
+  min-height: 100%;
+}
+
+/* Sur mobile, on lâche la bride du 100vh si on veut zoomer la page entière */
+@media (max-width: 768px) {
+  #app {
+    height: auto; 
+    min-height: 100vh;
+  }
+  .app-main {
+    overflow: visible; /* Permet au contenu de déborder dans le document global */
+  }
 }
 
 .container {
