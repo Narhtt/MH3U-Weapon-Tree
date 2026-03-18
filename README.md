@@ -68,4 +68,4 @@ Les icônes d'armes sont basées sur le travail SVG du projet **MHW_Icons_SVG**.
 Dépôt GitHub : [https://github.com/OthelloRhin/MHW_Icons_SVG](https://github.com/OthelloRhin/MHW_Icons_SVG)
 
 ---
-*Développé avec un souci de précision et de savoir-faire pour la communauté Monster Hunter.*
+*Remerciement à la communauté Monster Hunter.*
