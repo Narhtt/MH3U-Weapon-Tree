@@ -274,7 +274,7 @@ class App {
     div.dataset.rarity = weapon.rarity;
     
     const iconPath = getWeaponIconPath(this.getIconFolder(category), weapon.rarity);
-    const efr = calculateEFR(weapon, categoryId);
+    const efr = calculateEFR(weapon, categoryId.toUpperCase());
     const efe = calculateEFE(weapon);
     
     const element = weapon.stats.element;
@@ -344,12 +344,13 @@ class App {
   }
 
   getElementColor(type) {
-    const colors = {
-      'feu': '#ff4444', 'eau': '#4444ff', 'foudre': '#ffff44', 'glace': '#44ffff', 'dragon': '#aa44ff',
-      'poison': '#aa44aa', 'para': '#dddd44', 'sommeil': '#44dddd', 'poisse': '#ff8844'
-    };
-    return colors[type.toLowerCase()] || '#888';
-  }
+  const colors = {
+    'feu': '#ff4444', 'eau': '#4444ff', 'foudre': '#ffff44', 'glace': '#44ffff', 'dragon': '#aa44ff',
+    'poison': '#aa44aa', 'para': '#dddd44', 'sommeil': '#44dddd', 
+    'poisse': '#ff8844', 'explosion': '#ff8844'
+  };
+  return colors[type.toLowerCase()] || '#888';
+}
 
   getIconFolder(categoryName) {
     const normalize = (str) => str.normalize('NFC').toLowerCase().trim();
@@ -358,7 +359,7 @@ class App {
   }
 
   openWeaponDetails(weapon, categoryName, categoryId, isAwakened = false, isSharpnessPlus1 = false) {
-    const efr = calculateEFR(weapon, categoryId, isSharpnessPlus1);
+    const efr = calculateEFR(weapon, categoryId.toUpperCase(), isSharpnessPlus1);
     const efe = calculateEFE(weapon, isAwakened, isSharpnessPlus1);
 
     const hasHiddenElement = (weapon.stats.element && weapon.stats.element.hidden) || 
@@ -533,7 +534,8 @@ class App {
                 <span class="stat-value" style="color: var(--c-${
                   {
                     'feu': 'fire', 'eau': 'water', 'foudre': 'thunder', 'glace': 'ice', 'dragon': 'dragon',
-                    'poison': 'poison', 'para': 'para', 'sommeil': 'sleep', 'poisse': 'slime'
+                    'poison': 'poison', 'para': 'para', 'sommeil': 'sleep', 
+                    'poisse': 'slime', 'explosion': 'slime' // Ajout du mapping pour le CSS
                   }[weapon.stats.element.type.toLowerCase()] || 'text'
                 }); opacity: ${weapon.stats.element.hidden && !isAwakened ? '0.5' : '1'};">
                   ${weapon.stats.element.type} ${weapon.stats.element.value}${weapon.stats.element.hidden && !isAwakened ? ' (Verrouillé)' : ''}
