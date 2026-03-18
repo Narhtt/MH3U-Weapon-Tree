@@ -6,10 +6,7 @@ Un arbre des armes interactif et performant pour **Monster Hunter 3 Ultimate**, 
 
 - **Mise en page interactive** : Naviguez à travers les généalogies complexes d'armes avec une interface fluide et réactive.
 - **Calculs en temps réel** : Calcul automatique du **Raw Effectif (EFR)** et de l'**Élément Effectif (EFE)**, incluant le support des talents "Éveil" et "Tranchant +1".
-- **Système de Collection** : Suivez votre progression en marquant les armes comme "Possédées". Les données sont persistées localement via le `LocalStorage`.
-- **Design sans chevauchement** : Une mise en page stricte en Flexbox garantit que les statistiques et les badges ne se chevauchent jamais, maintenant une lisibilité parfaite.
-- **Connexions SVG** : Courbes de Bézier dynamiques reliant les nœuds d'armes, avec mise en surbrillance interactive.
-- **Architecture Vanilla JS** : Construit avec du JavaScript moderne et modulaire pour une performance maximale sans dépendances lourdes.
+- **Système de Collection** : Suivez votre progression en marquant les armes comme "Possédées" ou en les inscrivant sur votre "Wishlist". Les données sont persistées localement via le `LocalStorage`.
 
 ## Stack Technique
 
