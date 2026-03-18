@@ -3,6 +3,7 @@
  * Vanilla JS | Premium UI | Modern Standards
  */
 
+import './style.css';
 import { ICONS, WEAPON_TYPES, getWeaponIconPath } from './modules/icons.js';
 import { calculateEFR, calculateEFE } from './modules/utils.js';
 
