@@ -29,15 +29,16 @@ export function calculateEFR(weapon, categoryId, isSharpnessPlus1 = false) {
   if (!classData) return 0;
 
   const multiplier = classData.multiplier;
-  const trueRaw = weapon.stats.attack / multiplier;
-  const affinity = getAffinityValue(weapon.stats.affinity);
+  const attack = weapon.st?.atk || 0;
+  const trueRaw = attack / multiplier;
+  const affinity = getAffinityValue(weapon.st?.aff || 0);
   const affinityMod = 1 + (affinity / 100) * 0.25;
   
   let sharpMod = 1.0;
-  const isRanged = categoryId === "BW" || categoryId === "LBG" || categoryId === "HBG";
+  const isRanged = id === "BW" || id === "LBG" || id === "HBG";
   
-  if (!isRanged && weapon.stats.sharpness) {
-    const sharpnessArray = isSharpnessPlus1 && weapon.stats.sharpness.plus_1 ? weapon.stats.sharpness.plus_1 : weapon.stats.sharpness.base;
+  if (!isRanged && weapon.st?.sh) {
+    const sharpnessArray = isSharpnessPlus1 && weapon.st.sh.plus_1 ? weapon.st.sh.plus_1 : weapon.st.sh.base;
     const level = getSharpnessLevel(sharpnessArray);
     if (level >= 0 && level < SHARPNESS_MODIFIERS.length) {
       sharpMod = SHARPNESS_MODIFIERS[level].raw;
@@ -47,15 +48,18 @@ export function calculateEFR(weapon, categoryId, isSharpnessPlus1 = false) {
   let efr = trueRaw * sharpMod * affinityMod;
   
   // Weapon Specific Bonuses
-  if (categoryId === "SnS") {
+  if (id === "SNS") {
     efr *= 1.06;
   }
   
-  if (categoryId === "SA" && weapon.stats.phial && (weapon.stats.phial.includes("Force") || weapon.stats.phial.includes("Puiss"))) {
+  // Phial bonus for Switch Axe (SA)
+  // In the new data, phial is an index in meta.phials
+  // We need to know if it's "Fiole Puiss." (index 0 in meta.phials)
+  if (id === "SA" && weapon.st?.ph === 0) {
     efr *= 1.25;
   }
 
-  if (categoryId === "LS") {
+  if (id === "LS") {
     efr *= 1.13;
   }
   
@@ -63,17 +67,17 @@ export function calculateEFR(weapon, categoryId, isSharpnessPlus1 = false) {
 }
 
 export function calculateEFE(weapon, isAwakened = false, isSharpnessPlus1 = false) {
-  if (!weapon.stats || !weapon.stats.element) return 0;
-  if (weapon.stats.element.hidden && !isAwakened) return 0;
+  if (!weapon.st || !weapon.st.el) return 0;
+  if (weapon.st.el.h && !isAwakened) return 0;
   
-  const value = parseFloat(weapon.stats.element.value);
+  const value = parseFloat(weapon.st.el.v);
   if (isNaN(value)) return 0;
   
   const trueElem = value / 10;
   
   let sharpMod = 1.0;
-  if (weapon.stats.sharpness) {
-    const sharpnessArray = isSharpnessPlus1 && weapon.stats.sharpness.plus_1 ? weapon.stats.sharpness.plus_1 : weapon.stats.sharpness.base;
+  if (weapon.st.sh) {
+    const sharpnessArray = isSharpnessPlus1 && weapon.st.sh.plus_1 ? weapon.st.sh.plus_1 : weapon.st.sh.base;
     const level = getSharpnessLevel(sharpnessArray);
     if (level >= 0 && level < SHARPNESS_MODIFIERS.length) {
       sharpMod = SHARPNESS_MODIFIERS[level].elem;

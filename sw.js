@@ -6,7 +6,7 @@ const ASSETS_TO_CACHE = [
   '/src/style.css',
   '/src/modules/icons.js',
   '/src/modules/utils.js',
-  '/data/mh3u_weapons_data_final.json'
+  '/data/mh3u_data_ultra_min.json'
 ];
 
 self.addEventListener('install', (event) => {

@@ -32,6 +32,18 @@
   --c-sleep: #4444aa;
   --c-slime: #44aa44;
 
+  /* Rarity Colors */
+  --r1: #e8e8ed;
+  --r2: #aa44ff;
+  --r3: #ffff44;
+  --r4: #ff44aa;
+  --r5: #44ff44;
+  --r6: #4444ff;
+  --r7: #ff4444;
+  --r8: #44ffff;
+  --r9: #ff8844;
+  --r10: #ffffaa;
+
   /* Fonts */
   --f-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --f-display: 'Cinzel', serif;
@@ -73,7 +85,7 @@ html, body {
 #app {
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Verrou par défaut pour PC */
+  height: 100dvh; /* Verrou par défaut pour PC */
 }
 
 /* Header Design */
@@ -81,7 +93,7 @@ html, body {
   background: linear-gradient(to bottom, var(--c-surface), var(--c-bg));
   border-bottom: 1px solid var(--c-border);
   padding: 1.5rem 0;
-  z-index: 50;
+  z-index: 1000; /* Ensure header is above everything else except modals/search */
 }
 
 .header-content {
@@ -167,22 +179,34 @@ html, body {
   align-items: center;
 }
 
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  color: var(--c-text-dim);
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  z-index: 1;
+}
+
 .search-box input {
-  background: var(--c-surface-light);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
   border: 1px solid var(--c-border);
   border-radius: 8px;
-  padding: 0.6rem 1rem;
-  padding-right: 2.5rem;
+  padding: 0.6rem 1rem 0.6rem 2.5rem;
   color: white;
   font-size: 0.875rem;
   width: 280px;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .search-box input:focus {
   outline: none;
   border-color: var(--c-accent);
-  box-shadow: 0 0 0 2px var(--c-accent-glow);
+  box-shadow: 0 0 15px var(--c-accent-glow);
+  width: 320px;
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .search-box kbd {
@@ -194,6 +218,32 @@ html, body {
   font-size: 0.7rem;
   color: var(--c-text-dim);
   pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.search-box input:focus + kbd {
+  opacity: 0;
+}
+
+.search-results-dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  right: 0;
+  background: rgba(26, 26, 30, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--c-border);
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-results-dropdown.hidden {
+  display: none;
 }
 
 /* Filter Bar */
@@ -243,7 +293,7 @@ html, body {
 .viewport {
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow: hidden; /* Panzoom handles its own overflow/scrolling */
   cursor: grab;
   background-image: 
     radial-gradient(circle at 2px 2px, rgba(255,255,255,0.03) 1px, transparent 0);
@@ -392,9 +442,16 @@ html, body {
   width: 32px;
   height: 32px;
   flex-shrink: 0;
-  background: rgba(255,255,255,0.03);
-  border-radius: 8px;
-  padding: 4px;
+  display: inline-block;
+  background-color: var(--rarity-color, var(--r1));
+  -webkit-mask-image: var(--icon-url);
+  mask-image: var(--icon-url);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  border-radius: 0;
+  padding: 0;
 }
 
 .node-title {
@@ -449,12 +506,15 @@ html, body {
   inset: 0;
   background: rgba(10, 10, 12, 0.95);
   backdrop-filter: blur(10px);
-  z-index: 100;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  z-index: 100; /* Below header (1000) */
   padding: 4rem 0;
   overflow-y: auto;
+}
+
+.overlay .container {
+  height: auto;
+  min-height: 100%;
+  margin: 0 auto;
 }
 
 .overlay.hidden { display: none; }
@@ -628,6 +688,10 @@ html, body {
   }
   
   .search-box input {
+    width: 100%;
+  }
+  
+  .search-box input:focus {
     width: 100%;
   }
   
@@ -884,4 +948,145 @@ html, body {
     width: 16px;
     height: 16px;
   }
+}
+
+/* Unlock Zoom Fix */
+@media (max-width: 768px) {
+  #app {
+    height: auto !important;
+    min-height: 100dvh;
+  }
+}
+
+/* Search Overlay */
+
+
+.search-result-item {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  border-bottom: 1px solid var(--c-border);
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.search-result-info {
+  flex: 1;
+}
+
+.search-result-name {
+  display: block;
+  font-weight: 600;
+  color: var(--c-text);
+}
+
+.search-result-meta {
+  font-size: 0.7rem;
+  color: var(--c-text-muted);
+}
+
+/* Wishlist Section */
+.home-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.home-section {
+  flex-shrink: 0;
+}
+
+.wishlist-grid {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.wishlist-card {
+  background: var(--c-surface-light);
+  border: 1px solid var(--c-border);
+  border-radius: 16px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.wishlist-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--c-accent);
+}
+
+#wishlist-grid .wishlist-toggle {
+  display: none !important;
+}
+
+.wishlist-card .node-icon {
+  width: 48px;
+  height: 48px;
+}
+
+/* Glow Effect */
+@keyframes glow-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(242, 125, 38, 0.7); }
+  70% { box-shadow: 0 0 0 20px rgba(242, 125, 38, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(242, 125, 38, 0); }
+}
+
+.glow-highlight {
+  animation: glow-pulse 2s infinite;
+  border-color: var(--c-accent) !important;
+  z-index: 100;
+}
+
+/* Wishlist Toggle */
+.wishlist-toggle {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background: transparent;
+  border: none;
+  color: var(--c-text-muted);
+  cursor: pointer;
+  padding: 4px;
+  transition: color 0.2s ease, transform 0.2s ease, filter 0.2s ease;
+  z-index: 10;
+  font-size: 26px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wishlist-toggle:hover {
+  color: #ffd700;
+  transform: scale(1.2);
+}
+
+.wishlist-toggle:active {
+  transform: scale(0.8);
+}
+
+.wishlist-toggle.active {
+  color: #ffd700;
+  filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.8));
+}
+
+/* Panzoom adjustments */
+.canvas {
+  transform-origin: 0 0;
+  cursor: grab;
+}
+
+.canvas:active {
+  cursor: grabbing;
 }

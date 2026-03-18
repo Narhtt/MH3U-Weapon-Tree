@@ -1,4 +1,4 @@
-# Moga Forge - A MH3U Weapon Tree
+# MH3U Weapon Tree (Arbre des Armes)
 
 Un arbre des armes interactif et performant pour **Monster Hunter 3 Ultimate**, conçu pour les chasseurs qui recherchent une base de données claire, précise et professionnelle pour planifier leur progression d'équipement.
 
