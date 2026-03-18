@@ -387,7 +387,7 @@ class App {
     }
     if (weapon.stats.coatings) {
       const coatings = weapon.stats.coatings.split(',').map(c => c.trim());
-      const allCoatings = ['Force', 'Distance', 'Poison', 'Para', 'Sommeil', 'Fatigue', 'Poisse', 'Peinture'];
+      const allCoatings = ['Force', 'C.Portée', 'Poison', 'Paralysie', 'Sommeil', 'Fatigue', 'Explosion', 'Peinture'];
       
       let rows = '';
       allCoatings.forEach(c => {
