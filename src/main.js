@@ -73,10 +73,61 @@ class App {
           if (e.target.closest('button, input, .wishlist-toggle, .collection-checkbox')) {
             return false; // Don't prevent default
           }
-        },
-        smoothScroll: false
+        }
       });
 
+      this.panzoomInstance.on('transform', (e) => {
+        const transform = e.getTransform();
+        let { x, y, scale } = transform;
+        let changed = false;
+
+        // Verrouillage Supérieur : Interdire strictement tout déplacement au-dessus de Y = 0
+        if (y > 0) {
+          y = 0;
+          changed = true;
+        }
+
+        // Calcul des Limites
+        const viewportRect = this.elements.treeViewport.getBoundingClientRect();
+        const contentWidth = this.elements.treeCanvas.offsetWidth;
+        const contentHeight = this.elements.treeCanvas.offsetHeight;
+        const minX = viewportRect.width - (contentWidth * scale);
+        const minY = viewportRect.height - (contentHeight * scale);
+
+        // Limite gauche
+        if (minX < 0 && x > 0) {
+          x = 0;
+          changed = true;
+        } else if (minX >= 0 && x > minX) {
+          x = minX;
+          changed = true;
+        }
+
+        // Limite droite
+        if (minX < 0 && x < minX) {
+          x = minX;
+          changed = true;
+        } else if (minX >= 0 && x < 0) {
+          x = 0;
+          changed = true;
+        }
+
+        // Limite basse
+        if (minY < 0 && y < minY) {
+          y = minY;
+          changed = true;
+        } else if (minY >= 0 && y < 0) {
+          y = 0;
+          changed = true;
+        }
+
+        if (changed) {
+          // Use moveTo to apply clamped coordinates safely
+          // We use a small timeout or requestAnimationFrame to avoid recursion issues
+          // but panzoom's moveTo is usually safe to call from transform if values changed
+          this.panzoomInstance.moveTo(x, y);
+        }
+      });
       console.log("Panzoom initialized successfully");
     } catch (error) {
       console.error("Failed to initialize Panzoom:", error);
