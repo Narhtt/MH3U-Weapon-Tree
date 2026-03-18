@@ -36,7 +36,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para"
+                "coatings": "C.Portée, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [
@@ -96,7 +96,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para"
+                "coatings": "C.Portée, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -163,7 +163,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para"
+                "coatings": "C.Portée, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [
@@ -244,7 +244,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para"
+                "coatings": "C.Portée, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -309,7 +309,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Poison, Para"
+                "coatings": "C.Portée, Poison, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -373,7 +373,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Poison, Para"
+                "coatings": "C.Portée, Poison, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [
@@ -453,7 +453,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para"
+                "coatings": "C.Portée, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [
@@ -534,7 +534,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para"
+                "coatings": "C.Portée, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -599,7 +599,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Poison, Para, Fatigue"
+                "coatings": "C.Portée, Poison, Paralysie, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -663,7 +663,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Poison, Para, Fatigue"
+                "coatings": "C.Portée, Poison, Paralysie, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -743,7 +743,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para"
+                "coatings": "C.Portée, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [
@@ -824,7 +824,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para"
+                "coatings": "C.Portée, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -889,7 +889,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para, Sommeil, Fatigue"
+                "coatings": "C.Portée, Paralysie, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -953,7 +953,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para, Sommeil, Fatigue"
+                "coatings": "C.Portée, Paralysie, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -1026,7 +1026,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Fatigue"
+                "coatings": "Force, C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -1084,7 +1084,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Fatigue"
+                "coatings": "Force, C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -1145,7 +1145,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Fatigue"
+                "coatings": "Force, C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -1209,7 +1209,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Fatigue"
+                "coatings": "Force, C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -1296,7 +1296,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Fatigue"
+                "coatings": "Force, C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -1360,7 +1360,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Fatigue"
+                "coatings": "Force, C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -1430,7 +1430,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée, Fatigue"
+                "coatings": "Force, C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -1514,7 +1514,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée, Fatigue"
+                "coatings": "Force, C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -1586,7 +1586,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée, Fatigue"
+                "coatings": "Force, C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -1653,7 +1653,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée, Fatigue"
+                "coatings": "Force, C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -1721,7 +1721,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Sommeil"
+                "coatings": "Force, C.Portée, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [
@@ -1803,7 +1803,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Sommeil"
+                "coatings": "Force, C.Portée, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -1873,7 +1873,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Sommeil"
+                "coatings": "Force, C.Portée, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -1944,7 +1944,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Sommeil"
+                "coatings": "Force, C.Portée, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -2016,7 +2016,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Sommeil"
+                "coatings": "Force, C.Portée, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -2087,7 +2087,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Sommeil"
+                "coatings": "Force, C.Portée, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -2151,7 +2151,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Poison, Para"
+                "coatings": "C.Portée, Poison, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [
@@ -2229,7 +2229,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Poison, Para"
+                "coatings": "C.Portée, Poison, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -2295,7 +2295,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Poison, Para"
+                "coatings": "C.Portée, Poison, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -2362,7 +2362,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Poison, Para"
+                "coatings": "C.Portée, Poison, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [
@@ -2443,7 +2443,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Poison, Para"
+                "coatings": "C.Portée, Poison, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -2512,7 +2512,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Poison, Para"
+                "coatings": "C.Portée, Poison, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -2584,7 +2584,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Poison, Para"
+                "coatings": "C.Portée, Poison, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [
@@ -2665,7 +2665,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Para, Sommeil"
+                "coatings": "C.Portée, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [
@@ -2731,7 +2731,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Para, Sommeil"
+                "coatings": "C.Portée, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -2798,7 +2798,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Para, Sommeil"
+                "coatings": "C.Portée, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -2862,7 +2862,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Para, Sommeil"
+                "coatings": "C.Portée, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [
@@ -2942,7 +2942,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Para, Sommeil"
+                "coatings": "C.Portée, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3002,7 +3002,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poison"
+                "coatings": "Force, Poison, Peinture"
             },
             "materials": {
                 "forge": [
@@ -3064,7 +3064,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poison"
+                "coatings": "Force, Poison, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3127,7 +3127,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poison"
+                "coatings": "Force, Poison, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3191,7 +3191,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poison, Sommeil"
+                "coatings": "Force, Poison, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3256,7 +3256,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poison, Sommeil"
+                "coatings": "Force, Poison, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3320,7 +3320,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poison, Sommeil"
+                "coatings": "Force, Poison, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3384,7 +3384,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Fatigue"
+                "coatings": "C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -3450,7 +3450,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Fatigue"
+                "coatings": "C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3513,7 +3513,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Fatigue"
+                "coatings": "C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3581,7 +3581,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Poison, Fatigue"
+                "coatings": "C.Portée, Poison, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -3667,7 +3667,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Poison, Fatigue"
+                "coatings": "C.Portée, Poison, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3737,7 +3737,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Poison, Para, Fatigue"
+                "coatings": "C.Portée, Poison, Paralysie, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3802,7 +3802,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Poison, Para, Fatigue"
+                "coatings": "C.Portée, Poison, Paralysie, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3866,7 +3866,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée"
+                "coatings": "Force, C.Portée, Peinture"
             },
             "materials": {
                 "forge": [
@@ -3932,7 +3932,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée"
+                "coatings": "Force, C.Portée, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -3999,7 +3999,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée"
+                "coatings": "Force, C.Portée, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -4067,7 +4067,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée"
+                "coatings": "Force, C.Portée, Peinture"
             },
             "materials": {
                 "forge": [
@@ -4151,7 +4151,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée"
+                "coatings": "Force, C.Portée, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -4211,7 +4211,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Fatigue"
+                "coatings": "Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -4273,7 +4273,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Fatigue"
+                "coatings": "Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -4332,7 +4332,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Fatigue"
+                "coatings": "Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -4413,7 +4413,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Fatigue"
+                "coatings": "Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -4476,7 +4476,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Fatigue"
+                "coatings": "Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -4536,7 +4536,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Poison, Sommeil, Fatigue"
+                "coatings": "Poison, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -4594,7 +4594,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Poison, Sommeil, Fatigue"
+                "coatings": "Poison, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -4651,7 +4651,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poison, Sommeil, Fatigue"
+                "coatings": "Force, Poison, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -4711,7 +4711,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Para, Sommeil"
+                "coatings": "Force, C.Portée, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [
@@ -4773,7 +4773,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Para, Sommeil"
+                "coatings": "Force, C.Portée, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -4834,7 +4834,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Para, Sommeil"
+                "coatings": "Force, C.Portée, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -4898,7 +4898,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "C.portée"
+                "coatings": "C.Portée, Peinture"
             },
             "materials": {
                 "forge": [
@@ -4964,7 +4964,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "C.portée"
+                "coatings": "C.Portée, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -5031,7 +5031,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "C.portée"
+                "coatings": "C.Portée, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -5099,7 +5099,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "C.portée, Fatigue"
+                "coatings": "C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -5183,7 +5183,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "C.portée, Fatigue"
+                "coatings": "C.Portée, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -5247,7 +5247,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Poison, Para, Sommeil"
+                "coatings": "C.Portée, Poison, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [
@@ -5313,7 +5313,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Poison, Para, Sommeil"
+                "coatings": "C.Portée, Poison, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -5378,7 +5378,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Poison, Para, Sommeil"
+                "coatings": "C.Portée, Poison, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -5442,7 +5442,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée, Poison, Para, Sommeil, Fatigue"
+                "coatings": "Force, C.Portée, Poison, Paralysie, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -5504,7 +5504,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée, Poison, Para, Sommeil, Fatigue"
+                "coatings": "Force, C.Portée, Poison, Paralysie, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -5569,7 +5569,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, C.portée, Poison, Para, Sommeil, Fatigue, Poisse"
+                "coatings": "Force, C.Portée, Poison, Paralysie, Sommeil, Fatigue, Explosion, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -5633,7 +5633,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Poison, Para, Sommeil"
+                "coatings": "Poison, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [
@@ -5699,7 +5699,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Poison, Para, Sommeil"
+                "coatings": "Poison, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -5764,7 +5764,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Poison, Para, Sommeil"
+                "coatings": "Poison, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -5828,7 +5828,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Para"
+                "coatings": "Force, C.Portée, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [
@@ -5895,7 +5895,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Para, Fatigue"
+                "coatings": "Force, C.Portée, Paralysie, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -5960,7 +5960,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Para, Fatigue"
+                "coatings": "Force, C.Portée, Paralysie, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -6027,7 +6027,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Force, C.portée, Poison"
+                "coatings": "Force, C.Portée, Poison, Peinture"
             },
             "materials": {
                 "forge": [
@@ -6106,7 +6106,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Force, C.portée, Poison"
+                "coatings": "Force, C.Portée, Poison, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -6171,7 +6171,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Sommeil"
+                "coatings": "Force, C.Portée, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [
@@ -6237,7 +6237,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Sommeil"
+                "coatings": "Force, C.Portée, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -6298,7 +6298,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Sommeil"
+                "coatings": "Force, C.Portée, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -6360,7 +6360,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Force, C.portée, Para, Sommeil, Fatigue"
+                "coatings": "Force, C.Portée, Paralysie, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -6436,7 +6436,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Force, C.portée, Para, Sommeil, Fatigue"
+                "coatings": "Force, C.Portée, Paralysie, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -6498,7 +6498,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Force, C.portée, Para, Sommeil, Fatigue"
+                "coatings": "Force, C.Portée, Paralysie, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -6563,7 +6563,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, C.portée, Para"
+                "coatings": "Force, C.Portée, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [
@@ -6629,7 +6629,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, Fatigue"
+                "coatings": "Force, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -6694,7 +6694,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, Fatigue, Poisse"
+                "coatings": "Force, Fatigue, Explosion, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -6756,7 +6756,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "C.portée, Sommeil, Fatigue"
+                "coatings": "C.Portée, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [
@@ -6832,7 +6832,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "C.portée, Sommeil, Fatigue"
+                "coatings": "C.Portée, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -6894,7 +6894,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "C.portée, Sommeil, Fatigue"
+                "coatings": "C.Portée, Sommeil, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -6954,7 +6954,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "Force, Poison"
+                "coatings": "Force, Poison, Peinture"
             },
             "materials": {
                 "forge": [
@@ -7013,7 +7013,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, Poison"
+                "coatings": "Force, Poison, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -7076,7 +7076,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "Force, Poison"
+                "coatings": "Force, Poison, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -7138,7 +7138,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poison"
+                "coatings": "Force, Poison, Peinture"
             },
             "materials": {
                 "forge": [
@@ -7218,7 +7218,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para, Sommeil"
+                "coatings": "C.Portée, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [
@@ -7293,7 +7293,7 @@
                     }
                 ],
                 "arc_shot": "Focus",
-                "coatings": "C.portée, Para, Sommeil"
+                "coatings": "C.Portée, Paralysie, Sommeil, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -7357,7 +7357,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poisse"
+                "coatings": "Force, Explosion, Peinture"
             },
             "materials": {
                 "forge": [
@@ -7423,7 +7423,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poisse"
+                "coatings": "Force, Explosion, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -7488,7 +7488,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poisse"
+                "coatings": "Force, Explosion, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -7552,7 +7552,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Para"
+                "coatings": "C.Portée, Paralysie, Peinture"
             },
             "materials": {
                 "forge": [
@@ -7616,7 +7616,7 @@
                     }
                 ],
                 "arc_shot": "Rafale",
-                "coatings": "C.portée, Para, Fatigue"
+                "coatings": "C.Portée, Paralysie, Fatigue, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -7680,7 +7680,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poisse"
+                "coatings": "Force, Explosion, Peinture"
             },
             "materials": {
                 "forge": [
@@ -7744,7 +7744,7 @@
                     }
                 ],
                 "arc_shot": "",
-                "coatings": "Force, Poisse"
+                "coatings": "Force, Explosion, Peinture"
             },
             "materials": {
                 "forge": [],
@@ -11962,7 +11962,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 200,
                     "hidden": false
                 },
@@ -12038,7 +12038,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 240,
                     "hidden": false
                 },
@@ -12113,7 +12113,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 280,
                     "hidden": false
                 },
@@ -12740,7 +12740,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 250,
                     "hidden": false
                 },
@@ -12808,7 +12808,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 300,
                     "hidden": false
                 },
@@ -12877,7 +12877,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 340,
                     "hidden": false
                 },
@@ -12949,7 +12949,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 380,
                     "hidden": false
                 },
@@ -25379,7 +25379,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 160,
                     "hidden": true
                 },
@@ -25465,7 +25465,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 220,
                     "hidden": true
                 },
@@ -25537,7 +25537,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 300,
                     "hidden": true
                 },
@@ -25808,7 +25808,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 110,
+                    "hidden": true
+                },
                 "sharpness": {
                     "base": [
                         15,
@@ -25883,7 +25887,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 2,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 170,
+                    "hidden": true
+                },
                 "sharpness": {
                     "base": [
                         17,
@@ -25943,7 +25951,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 3,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 220,
+                    "hidden": true
+                },
                 "sharpness": {
                     "base": [
                         11,
@@ -31131,7 +31143,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 300,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         13,
@@ -31194,7 +31210,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 2,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 380,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         13,
@@ -35977,7 +35997,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 150,
                     "hidden": false
                 },
@@ -36045,7 +36065,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 170,
                     "hidden": false
                 },
@@ -36116,7 +36136,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 190,
                     "hidden": false
                 },
@@ -37697,7 +37717,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 50,
                     "hidden": true
                 },
@@ -37783,7 +37803,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 70,
                     "hidden": true
                 },
@@ -37856,7 +37876,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 90,
                     "hidden": true
                 },
@@ -37924,7 +37944,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 110,
                     "hidden": true
                 },
@@ -39044,7 +39064,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 170,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         11,
@@ -39108,7 +39132,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 2,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 200,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         15,
@@ -41504,7 +41532,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 200,
                     "hidden": false
                 },
@@ -41570,7 +41598,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 220,
                     "hidden": false
                 },
@@ -41635,7 +41663,7 @@
                 "defense": 0,
                 "slots": 3,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 250,
                     "hidden": false
                 },
@@ -44404,7 +44432,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 0,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 100,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         9,
@@ -44465,7 +44497,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 0,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 150,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         17,
@@ -44527,7 +44563,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 250,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         17,
@@ -44592,7 +44632,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 2,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 300,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         11,
@@ -45023,7 +45067,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 0,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 180,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         17,
@@ -45090,7 +45138,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 230,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         24,
@@ -47810,7 +47862,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 130,
                     "hidden": false
                 },
@@ -47876,7 +47928,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 150,
                     "hidden": false
                 },
@@ -47943,7 +47995,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 180,
                     "hidden": false
                 },
@@ -48011,7 +48063,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 240,
                     "hidden": false
                 },
@@ -48082,7 +48134,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 300,
                     "hidden": false
                 },
@@ -50645,7 +50697,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 140,
                     "hidden": false
                 },
@@ -50707,7 +50759,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 270,
                     "hidden": false
                 },
@@ -50772,7 +50824,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 320,
                     "hidden": false
                 },
@@ -53547,7 +53599,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 140,
                     "hidden": true
                 },
@@ -53616,7 +53668,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 190,
                     "hidden": true
                 },
@@ -54573,7 +54625,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 170,
                     "hidden": false
                 },
@@ -54645,7 +54697,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 220,
                     "hidden": false
                 },
@@ -54716,7 +54768,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 240,
                     "hidden": false
                 },
@@ -59039,7 +59091,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 240,
                     "hidden": false
                 },
@@ -59106,7 +59158,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 280,
                     "hidden": false
                 },
@@ -59172,7 +59224,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 300,
                     "hidden": false
                 },
@@ -61933,7 +61985,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 150,
                     "hidden": false
                 },
@@ -62004,7 +62056,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 200,
                     "hidden": false
                 },
@@ -62074,7 +62126,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 220,
                     "hidden": false
                 },
@@ -64150,7 +64202,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 140,
                     "hidden": false
                 },
@@ -64232,7 +64284,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 170,
                     "hidden": false
                 },
@@ -64299,7 +64351,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 200,
                     "hidden": false
                 },
@@ -64366,7 +64418,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 220,
                     "hidden": false
                 },
@@ -64438,7 +64490,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 260,
                     "hidden": false
                 },
@@ -64509,7 +64561,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 300,
                     "hidden": false
                 },
@@ -68633,7 +68685,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 200,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         39,
@@ -68695,7 +68751,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 250,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         22,
@@ -68756,7 +68816,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 2,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 280,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         22,
@@ -69956,7 +70020,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 80,
                     "hidden": true
                 },
@@ -70022,7 +70086,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 80,
                     "hidden": true
                 },
@@ -70089,7 +70153,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 80,
                     "hidden": true
                 },
@@ -70161,7 +70225,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 100,
                     "hidden": true
                 },
@@ -70231,7 +70295,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 100,
                     "hidden": true
                 },
@@ -72670,7 +72734,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 180,
                     "hidden": true
                 },
@@ -72744,7 +72808,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 220,
                     "hidden": true
                 },
@@ -72817,7 +72881,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 250,
                     "hidden": true
                 },
@@ -74345,7 +74409,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 100,
                     "hidden": true
                 },
@@ -74418,7 +74482,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 120,
                     "hidden": true
                 },
@@ -74490,7 +74554,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 150,
                     "hidden": true
                 },
@@ -74992,7 +75056,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 100,
                     "hidden": false
                 },
@@ -75063,7 +75127,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 120,
                     "hidden": false
                 },
@@ -75130,7 +75194,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 150,
                     "hidden": false
                 },
@@ -75200,7 +75264,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 180,
                     "hidden": false
                 },
@@ -75987,7 +76051,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 150,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         11,
@@ -76049,7 +76117,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 200,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         22,
@@ -76114,7 +76186,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 220,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         22,
@@ -76931,7 +77007,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 220,
                     "hidden": false
                 },
@@ -76998,7 +77074,7 @@
                 "defense": 0,
                 "slots": 3,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 270,
                     "hidden": false
                 },
@@ -77060,7 +77136,7 @@
                 "defense": 0,
                 "slots": 3,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 300,
                     "hidden": false
                 },
@@ -80003,7 +80079,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 150,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         13,
@@ -80065,7 +80145,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 190,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         15,
@@ -80127,7 +80211,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 220,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         11,
@@ -80194,7 +80282,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 240,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         7,
@@ -80256,7 +80348,11 @@
                 "affinity": 0,
                 "defense": 0,
                 "slots": 1,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 280,
+                    "hidden": false
+                },
                 "sharpness": {
                     "base": [
                         15,
@@ -80542,7 +80638,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 130,
                     "hidden": false
                 },
@@ -80609,7 +80705,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 140,
                     "hidden": false
                 },
@@ -80676,7 +80772,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 150,
                     "hidden": false
                 },
@@ -80744,7 +80840,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 160,
                     "hidden": false
                 },
@@ -80813,7 +80909,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 170,
                     "hidden": false
                 },
@@ -80885,7 +80981,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 180,
                     "hidden": false
                 },
@@ -83534,7 +83630,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 80,
                     "hidden": true
                 },
@@ -83617,7 +83713,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 100,
                     "hidden": true
                 },
@@ -83684,7 +83780,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 150,
                     "hidden": true
                 },
@@ -83968,7 +84064,11 @@
                 "affinity": 0,
                 "defense": 10,
                 "slots": 0,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 150,
+                    "hidden": true
+                },
                 "sharpness": {
                     "base": [
                         20,
@@ -84032,7 +84132,11 @@
                 "affinity": 0,
                 "defense": 17,
                 "slots": 0,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 170,
+                    "hidden": true
+                },
                 "sharpness": {
                     "base": [
                         11,
@@ -84101,7 +84205,11 @@
                 "affinity": 0,
                 "defense": 20,
                 "slots": 2,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 190,
+                    "hidden": true
+                },
                 "sharpness": {
                     "base": [
                         24,
@@ -84165,7 +84273,11 @@
                 "affinity": 0,
                 "defense": 20,
                 "slots": 2,
-                "element": null,
+                "element": {
+                    "type": "Sommeil",
+                    "value": 200,
+                    "hidden": true
+                },
                 "sharpness": {
                     "base": [
                         35,
@@ -84858,7 +84970,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 150,
                     "hidden": false
                 },
@@ -84925,7 +85037,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 210,
                     "hidden": false
                 },
@@ -84991,7 +85103,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 260,
                     "hidden": false
                 },
@@ -88867,7 +88979,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 120,
                     "hidden": true
                 },
@@ -88936,7 +89048,7 @@
                 "defense": 0,
                 "slots": 2,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 160,
                     "hidden": true
                 },
@@ -90758,7 +90870,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 50,
                     "hidden": true
                 },
@@ -90816,7 +90928,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 80,
                     "hidden": true
                 },
@@ -90880,7 +90992,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 100,
                     "hidden": true
                 },
@@ -90958,7 +91070,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 120,
                     "hidden": false
                 },
@@ -91023,7 +91135,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 140,
                     "hidden": false
                 },
@@ -91094,7 +91206,7 @@
                 "defense": 0,
                 "slots": 0,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 160,
                     "hidden": false
                 },
@@ -91165,7 +91277,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 180,
                     "hidden": false
                 },
@@ -91235,7 +91347,7 @@
                 "defense": 0,
                 "slots": 1,
                 "element": {
-                    "type": "Para.",
+                    "type": "Para",
                     "value": 210,
                     "hidden": false
                 },
